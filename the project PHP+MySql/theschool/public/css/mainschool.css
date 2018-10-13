@@ -1,0 +1,338 @@
+html{
+	height:100%;
+}
+
+body{
+	height:100%;
+}
+
+header{
+    height: 74px;
+	color: black;
+}
+
+.admin_avatar,.course_avatar,.student_avatar{
+	width: 50px ; 
+	height: 50px;
+}
+
+#img_header_logo{
+	width: 70px ; 
+	height: 70px;
+}
+
+#main_nav{
+	background-color: #2E9AFE;
+}
+
+.links_of_header{
+	color: black;
+}
+
+#student_details_nav,#course_details_nav{
+	background-color: #A3E4D7;
+}
+
+#form_log_in{
+	width: 800px;
+	height: 500px;
+}
+
+#container_of_form_login{
+	height: 100vh;
+}
+
+#username_input,#user_password{
+	height: 44px;
+	width: 220px;
+}
+
+#container_text_subject_login{
+	position: absolute;
+	left:320px;
+	top: 70px;
+}
+
+.container_all_login_form_elements{
+	position: relative;
+}
+
+#container_login_input{
+	position: absolute;
+	top: 230px;
+	left: 166px;
+}
+
+#contaier_password_plus_username{
+	position: absolute;
+	left: 190px;
+	top: 150px;
+}
+
+.login_error_name{
+	position: absolute;
+	top:  18px;
+	left: 328px;
+	width: 300px;
+
+}
+
+.login_error_password{
+	position: absolute;
+	top:  118px;
+	width: 300px;
+	right: -312px;
+}
+
+.wrong_error_name{
+	position: absolute;
+	top: 160px;
+	left: 50px;
+	width: 300px;
+}
+
+.login_h1_text{
+	color: #0099ff;
+	text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+#edit_button{
+  background-color: red;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.message_success{
+	color: green;
+	margin-top: 50px; 
+}
+
+.message_errors{
+	color: red;
+}
+
+#student_image_in_course,#course_image_in_student{
+	height: 50px;
+	width: 50px;
+}
+
+.plus_button{
+	height: 42px;
+	width: 42px;
+}
+
+
+.border{
+	margin: 200px 240px auto 240px;
+	line-height: 60px; 
+}
+
+#image_course_display,#image_student_display{
+	height: 100px;
+	width: 100px;
+}
+
+.button_save{
+    position: relative;
+    right: 250px;
+}
+
+.button_delete{
+	position: relative;	
+	left: 250px ;
+}
+
+#input_course_name_plus_label{
+	position: relative;
+	top: 30px;
+}
+
+#container_description_course{
+	position: relative;
+	top: -15px;
+	left: 53px;
+}
+
+#container_label_description{
+	position: relative;
+	top: 80px;
+	left: -120px;
+}
+
+#description_input{
+	position: relative;
+	width: 200px;
+	height: 150px;
+	right: 15px;
+}
+
+.course_error_name{
+	position: absolute;
+	top: 52px;
+	right: 10px;
+}
+
+.course_error_description{
+	position: absolute;
+	top: 160px;
+	right: 2px;
+}
+
+#input_student_name_plus_label,#input_student_phone_plus_label{
+	position: relative;
+	top: 30px;
+}
+
+#input_student_email_plus_label{
+	position: relative;
+	top: 30px;
+	left: 3px;
+}
+
+.student_error_name,.student_error_phone,.student_error_email{
+	position: absolute;
+	top: 52px;
+	right: 6px;
+}
+
+.container_of_errors{
+	position: relative;
+	height: 80px;
+}
+
+.container_of_errors_and_input_for_description{
+	position: relative;
+	height: 200px;
+}
+
+#input_admin_name_plus_label,#input_admin_phone_plus_label,#input_admin_email_plus_label{
+	position: relative;
+	top: 30px;
+}
+
+#input_admin_role_plus_label,#input_admin_password_plus_label{
+	position: relative;
+	top: 30px;
+}
+
+#avatar_image_id{
+	height: 140px;
+	width: 140px;
+}
+
+.admin_error_name,.admin_error_phone,.admin_error_email,.admin_error_role{
+	position: absolute;
+	top: 50px;
+	right: 70px;
+}
+
+.admin_error_password{
+	position: absolute;
+	top: 50px;
+	right: 45px;
+}
+
+#input_admin_password_plus_label{
+	position: relative;
+	right: 12px;
+}
+
+#input_admin_role_plus_label{
+	position: relative;
+	left: 6px;
+}
+
+#input_admin_email_plus_label,#input_admin_phone_plus_label{
+	position: relative;
+	left: 2px;
+}
+
+input[type=text],input[type=password],textarea[type=text]{
+    border: 1px solid gray; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 15px;
+    margin: 0 0 10px 0;
+}
+
+.container_checkboxs_and_label {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container_checkboxs_and_label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.container_checkboxs_and_label:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container_checkboxs_and_label input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container_checkboxs_and_label input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container_checkboxs_and_label .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+
+
+
+
