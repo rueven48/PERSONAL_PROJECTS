@@ -26,6 +26,11 @@ Php, MySql, Bootstrap, Css, Html.
 
 ## Screenshot : Main Admins
 
+![school_main2](https://user-images.githubusercontent.com/40452887/46909755-1dd2a200-cf40-11e8-9e5b-7908a5a8a241.png)
+
+## Screenshot : Student Details
+
+
 
 
 
