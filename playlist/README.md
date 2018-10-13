@@ -28,6 +28,9 @@ Html5, Css, Javascript, Jquery , Bootstrap, Ajax.
 
 ## Screenshot : Update Playlist
 
+![playlist_update](https://user-images.githubusercontent.com/40452887/46909182-cd0a7b80-cf36-11e8-9e2f-0da5f3707248.png)
+
+## Screenshot : Delete Playlist
 
 
 
