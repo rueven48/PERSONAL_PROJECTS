@@ -44,6 +44,9 @@ Html5, Css, Javascript, Jquery , Bootstrap, Ajax.
 
 ## Screenshot :Edit Playlist Songs
 
+![playlist_edit_songs](https://user-images.githubusercontent.com/40452887/46909258-ff68a880-cf37-11e8-8d9e-57b6e3a9b982.png)
+
+
 
 
 
