@@ -40,6 +40,12 @@ Html5, Css, Javascript, Jquery , Bootstrap, Ajax.
 
 ## Screenshot :Pause Playlist
 
+![playlist_pause](https://user-images.githubusercontent.com/40452887/46909245-c3cdde80-cf37-11e8-8b57-db16714ecc53.png)
+
+## Screenshot :Edit Playlist Songs
+
+
+
 
 
 
