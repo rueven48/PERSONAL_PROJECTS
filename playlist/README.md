@@ -19,5 +19,10 @@ Html5, Css, Javascript, Jquery , Bootstrap, Ajax.
 
 ## Screenshot : Search
 
+![playlist_search](https://user-images.githubusercontent.com/40452887/46909095-b44d9600-cf35-11e8-9c2f-cf3b54047bc2.png)
+
+## Screenshot : Add Playlist
+
+
 
 
