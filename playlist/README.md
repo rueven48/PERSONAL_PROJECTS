@@ -32,5 +32,10 @@ Html5, Css, Javascript, Jquery , Bootstrap, Ajax.
 
 ## Screenshot : Delete Playlist
 
+![playlist_delete](https://user-images.githubusercontent.com/40452887/46909205-1ce94280-cf37-11e8-8892-8bcc45d4ff5f.png)
+
+## Screenshot : Play Playlist
+
+
 
 
