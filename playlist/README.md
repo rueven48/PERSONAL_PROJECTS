@@ -23,6 +23,7 @@ Html5, Css, Javascript, Jquery , Bootstrap, Ajax.
 
 ## Screenshot : Add Playlist
 
+![playlist_add](https://user-images.githubusercontent.com/40452887/46909173-b106da00-cf36-11e8-9073-659f2d0a66aa.png)
 
 
 ## Screenshot : Update Playlist
