@@ -36,6 +36,10 @@ Html5, Css, Javascript, Jquery , Bootstrap, Ajax.
 
 ## Screenshot : Play Playlist
 
+![playlist_play](https://user-images.githubusercontent.com/40452887/46909218-59b53980-cf37-11e8-8f7b-e631f09d0511.png)
+
+## Screenshot :Pause Playlist
+
 
 
 
