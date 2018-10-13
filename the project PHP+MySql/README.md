@@ -34,6 +34,14 @@ Php, MySql, Bootstrap, Css, Html.
 
 ## Screenshot : Course Details
 
+![school_course_details](https://user-images.githubusercontent.com/40452887/46909774-77d36780-cf40-11e8-9c81-66266521a95c.png)
+
+
+## Screenshot : Add Student
+
+
+
+
 
 
 
