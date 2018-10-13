@@ -1,0 +1,196 @@
+body,html{
+min-height: 100%; 
+}
+body{
+background-image: url(../my_images/tile.jpg);
+}
+#title_image{
+display: block;
+margin: 25px auto -10px auto;  
+}
+form{
+position: relative;
+margin: 10px auto 0px auto;
+}
+.image{
+position: absolute;
+display: block;
+width: 600px;
+height: 66px;
+left: 540px;
+}
+.taski1{
+top: 30px;
+}
+.taski2{
+top: 96px;
+}
+.taski3{
+top: 162px;
+}
+textarea{
+position: absolute;
+width: 400px;
+height: 130px;
+display: block;
+top: 30px; 
+left: 540px;
+border: 1px solid black;
+background-image: url(../my_images/formbg.jpg);
+border-style: none; 
+border-color: Transparent; 
+resize: none;
+border: none;
+overflow: auto;
+outline: none;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+padding-top: 20px;
+padding-left: 78px;
+font-size: 20px !important;
+font-family: Arial, Helvetica, sans-serif !important;
+}
+#input_date{
+position: absolute;
+width: 400px;
+height: 66px;
+display: block;
+top: 162px;
+left: 540px;
+background-image: url(../my_images/formbg.jpg);
+border: none;
+padding-top: 4px;
+padding-left: 78px;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+#input_date:focus{
+outline: none;	
+}
+#save_button{
+position: absolute;
+width: 50px; 
+height: 50px;
+top: 45px;
+left: 1025px;
+display: block;
+}
+#error_message{
+position: absolute;
+width: 150px;
+height: 25px;
+top: 120px;
+left: 980px;
+color: red;
+font-size: 14px;
+font-weight: 600;
+}
+ul{
+display: flex;
+-webkit-flex-flow: row wrap;
+padding: 0;
+margin-right: 220px;
+justify-content: flex-start;
+}
+.li-reg{  
+position: relative;
+margin-top: 230px;
+margin-left: 220px;
+margin-right: 25px;
+margin-bottom: 20px;
+opacity: 0;
+transition-property: opacity;
+transition-duration: 1s;
+transition-delay: 0s; 
+}
+
+.li-after-delete{   
+position: relative;
+margin-top: 230px;
+margin-left: 220px;
+margin-right: 25px;
+margin-bottom: 20px;
+opacity: 1;
+transition-property: opacity;
+transition-duration: 1s;
+transition-delay: 0s; 
+}
+ul>li>img{
+position: absolute;
+}
+ul>li>div:first-of-type{
+position: absolute;
+width: 167px;
+height: 174px;
+top: 22px;
+left: 5px;
+overflow: auto;
+overflow-wrap: break-word;
+word-wrap: break-word;
+hyphens: auto;
+}
+ul>li>div:last-child{
+position: absolute;
+width: 167px;
+height: 40px;
+top: 200px;
+left: 5px;
+}
+ul>li>button{
+position: absolute;
+width: 50px; 
+height: 50px;
+z-index: 1;	
+top: 90px;
+left: 66px;
+visibility: hidden;
+}
+ul>li:hover button{
+visibility: visible;	
+}
+ul>li>button>span{
+font-size: 14px;
+}
+ul p{
+font-size: 22px;
+font-weight: 700;
+font-family: 'Waiting for the Sunrise';
+}
+.low-par{
+position: relative;
+top: 12px;
+left: 2px;
+}
+
+@media screen and (max-width: 1680px){
+
+form{
+width: 50%;
+}
+
+.image{
+width: -50%;	
+left: 50px;
+}
+
+textarea{
+width:  -50%;
+left: 50px;
+}
+
+#input_date{
+width:  -100%;
+left: 50px;
+}
+
+#save_button{
+left: 530px;
+}
+
+#error_message{
+left: 500px;
+}
+
+
+
