@@ -1,6 +1,6 @@
 # JOHN BRYCE - COLLEGE PROJECTS
 
-1. **Notes - project.**
+**1. Notes - project.**
 
 * Technologies :
 
