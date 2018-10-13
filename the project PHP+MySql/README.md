@@ -15,5 +15,7 @@ of a spesific school. The structure of the code is built in MVC pattern.
 Php, MySql, Bootstrap, Css, Html.
 
 
-## Screenshot : Main Program
+## Screenshot : Login
+
+
 
