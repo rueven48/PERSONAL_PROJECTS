@@ -2,6 +2,8 @@
 
 1. Notes - project.
 
-2. School project.
+2. Playlist project.
 
-3. Playlist project.
+3. School project.
+
+
