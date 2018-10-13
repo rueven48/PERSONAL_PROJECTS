@@ -12,7 +12,9 @@
 
 2. Playlist project.
 
-*  Technologies : Html5, Css, Javascript, Jquery , Bootstrap, Ajax.
+*  Technologies :
+   
+   Html5, Css, Javascript, Jquery , Bootstrap, Ajax.
 
 *  Screenshot : 
 
