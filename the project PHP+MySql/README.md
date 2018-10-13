@@ -39,6 +39,51 @@ Php, MySql, Bootstrap, Css, Html.
 
 ## Screenshot : Add Student
 
+![school_add_student](https://user-images.githubusercontent.com/40452887/46909785-a3eee880-cf40-11e8-9675-9fe0b3dc7213.png)
+
+## Screenshot : Add Course
+
+![school_add_course](https://user-images.githubusercontent.com/40452887/46909796-c8e35b80-cf40-11e8-9aa4-597c7d485fd8.png)
+
+## Screenshot : Edit Student
+
+![school_edit_student](https://user-images.githubusercontent.com/40452887/46909800-e1ec0c80-cf40-11e8-9f02-87accbbd7d7b.png)
+
+## Screenshot : Edit Course
+
+![school_edit_course](https://user-images.githubusercontent.com/40452887/46909801-f29c8280-cf40-11e8-91eb-d4f2943677aa.png)
+
+
+## Screenshot :Delete Student
+
+![school_delete_course](https://user-images.githubusercontent.com/40452887/46909806-0cd66080-cf41-11e8-9ea6-9b5507600118.png)
+
+## Screenshot :Delete Course
+
+![school_delete_course](https://user-images.githubusercontent.com/40452887/46909810-1cee4000-cf41-11e8-8332-4e44700c684e.png)
+
+## Screenshot :Add Admin
+
+![school_add_admin](https://user-images.githubusercontent.com/40452887/46909817-3abba500-cf41-11e8-992d-98830fb08312.png)
+
+
+## Screenshot :Edit Admin
+
+![school_edit_admin](https://user-images.githubusercontent.com/40452887/46909819-4c04b180-cf41-11e8-9fc3-f5c7ddcd7662.png)
+
+## Screenshot :Delete Admin
+
+![school_delete_admin](https://user-images.githubusercontent.com/40452887/46909828-853d2180-cf41-11e8-9bdd-b877d4fe68e2.png)
+
+## Screenshot :Logout
+
+![school_logout](https://user-images.githubusercontent.com/40452887/46909839-c7fef980-cf41-11e8-94ae-895d9df423a8.png)
+
+
+
+
+
+
 
 
 
