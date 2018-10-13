@@ -17,5 +17,10 @@ Php, MySql, Bootstrap, Css, Html.
 
 ## Screenshot : Login
 
+![school_login](https://user-images.githubusercontent.com/40452887/46909712-a0a72d00-cf3f-11e8-9e34-38af18bfb38a.png)
+
+## Screenshot : Main screen
+
+
 
 
