@@ -6,7 +6,7 @@
 
   Html, Css, Javascript.
 
-* screenshot :
+* Screenshot :
 
 ![notes_screenshot](https://user-images.githubusercontent.com/40452887/46908836-7ea6ae00-cf31-11e8-919d-d495c88e3510.png)
 
@@ -26,6 +26,6 @@
 
   Php, MySql, Bootstrap, Css, Html.
 
-* screenshot :
+* Screenshot :
 
 ![school_main1](https://user-images.githubusercontent.com/40452887/46909734-d3512580-cf3f-11e8-955f-5badc903f2ab.png)
