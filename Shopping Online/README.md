@@ -40,6 +40,16 @@ Angular5, Node Js, MongoDb, Bootstrap, Css, Html.
 
 ## Screenshot : Admin - edit product
 
+![admin_add](https://user-images.githubusercontent.com/40452887/50760345-379a3180-1270-11e9-9c3f-4f871777f4fc.png)
+
+## Screenshot : Admin - add product
+
+![admin_edit](https://user-images.githubusercontent.com/40452887/50760316-146f8200-1270-11e9-8aad-036ac7836b8d.png)
+
+
+
+
+
 
 
 
