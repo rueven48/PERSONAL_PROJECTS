@@ -7,7 +7,7 @@ Every client can see the products and filter them.<br />
 Every signed-in client can buy product and add it to his cart.<br />
 After that he need to fill his order.<br />
 If he wishes he can see his receipt of all his items purchased.<br />
-Only the manager can add or update a product.<br />
+Only the Admin can add or update a product.<br />
 
 
 ## Using technologies :
