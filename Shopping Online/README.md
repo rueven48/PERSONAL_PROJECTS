@@ -24,6 +24,11 @@ Angular5, Node Js, MongoDb, Bootstrap, Css, Html.
 
 ## Screenshot : Register - step 2
 
+![shopping_register_step2](https://user-images.githubusercontent.com/40452887/50759741-88a92600-126e-11e9-9910-05ffc8065c83.png)
+
+## Screenshot : Shopping
+
+
 
 
 
