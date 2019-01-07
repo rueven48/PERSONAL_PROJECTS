@@ -32,6 +32,9 @@ Angular5, Node Js, MongoDb, Bootstrap, Css, Html.
 
 ## Screenshot : Order
 
+![order](https://user-images.githubusercontent.com/40452887/50759992-387e9380-126f-11e9-940d-df09a6684cd3.png)
+
+## Screenshot : Admin - edit product
 
 
 
