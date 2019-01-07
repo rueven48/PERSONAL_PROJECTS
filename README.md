@@ -34,7 +34,7 @@
 
 * Technologies :
 
-  Php, MySql, Bootstrap, Css, Html.
+Angular5, Node Js, MongoDb, Bootstrap, Css, Html.
 
 * Screenshot :
 
