@@ -38,6 +38,10 @@ Angular5, Node Js, MongoDb, Bootstrap, Css, Html.
 
 ![order](https://user-images.githubusercontent.com/40452887/50759992-387e9380-126f-11e9-940d-df09a6684cd3.png)
 
+## Screenshot : Order - order success message and receipt
+
+![order_success](https://user-images.githubusercontent.com/40452887/50760651-0b32e500-1271-11e9-8230-2cc870ab79c8.png)
+
 ## Screenshot : Admin - edit product
 
 ![admin_add](https://user-images.githubusercontent.com/40452887/50760345-379a3180-1270-11e9-9c3f-4f871777f4fc.png)
