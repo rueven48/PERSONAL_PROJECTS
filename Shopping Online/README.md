@@ -2,13 +2,11 @@
 
 ## Description :
 
-This app is a website of Shopping store.<br />
-Every client can see the products and filter them.<br />
-Every signed-in client can buy product and add it to his cart.<br />
-After that he need to fill his order.<br />
-If he wishes he can see his receipt of all his items purchased.<br />
-Only the Admin can add or update a product.<br />
-
+This application is an online supermarket.<br />
+Every logged in client can see the products and filter them accordingly.<br />
+Every signed-in client can add the products to his shopping cart and then buy them.<br />
+Following the purchase he is issued a receipt.<br />
+Only an admin can update or add products on the site.<br />
 
 ## Using technologies :
 
