@@ -18,5 +18,14 @@ Angular5, Node Js, MongoDb, Bootstrap, Css, Html.
 
 ![shopping_login](https://user-images.githubusercontent.com/40452887/50758566-39152b00-126b-11e9-802b-ac8448b79ac5.png)
 
+## Screenshot : Register - step 1
+
+![shopping_register_step1](https://user-images.githubusercontent.com/40452887/50759674-50a1e300-126e-11e9-82fb-34611d1d88ca.png)
+
+## Screenshot : Register - step 2
+
+
+
+
 
 
