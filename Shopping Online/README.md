@@ -2,11 +2,12 @@
 
 ## Description :
 
-Develop managment system for Admins : owner, manager and sales. <br />
-Each Admin according to his permissions can add or delete or update students and courses. <br />
-The main goal of the project is to  give the Admin program service so he can mange courses to students
-of a spesific school. The structure of the code is built in MVC pattern. 
-
+This app is a website of Shopping store.<br />
+Every client can see the products and filter them.<br />
+Every signed-in client can buy product and add it to his cart.<br />
+After that he need to fill his order.<br />
+If he wishes he can see his receipt of all his items purchased.<br />
+Only the manager can add or update a product.<br />
 
 
 ## Using technologies :
