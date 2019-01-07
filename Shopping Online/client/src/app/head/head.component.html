@@ -1,0 +1,22 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <img src=".\assets\images\super_logo.jpg"/>
+            <span id="profile">Welcome, {{user?.firstName}} {{user?.lastName }} </span>
+            <a routerLink="/home"></a>
+            <button id="logout_button" class="btn btn-primary" (click)="logOut()" *ngIf="user.firstName!='Guest'">Logout</button>
+
+       </div>
+        <div id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+
+
+                <li>
+                    <a routerLink="/home">HOME</a>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+</nav>

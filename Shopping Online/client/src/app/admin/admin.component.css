@@ -1,0 +1,95 @@
+
+#left_panel {
+    position: absolute;
+    left: 0;
+    top: 90px;
+    height:80vh !important;
+    bottom: 0;
+    right: 100px;
+    background: #d1d1e0;
+}
+
+#right_panel {
+    position: absolute;
+    right: 0;
+    top: 90px;
+    height:80vh !important;
+    bottom: 0;
+    width: 200px;
+    color: #fff;
+    background:white;
+    height: 80%;
+    width: 70%;
+}
+
+#container_cart_parent{
+    position: relative;
+    border-top: 2px solid black;
+    width: 100%;
+    top: 88px;
+}
+
+#container_cart{
+    position: relative;
+    left: 50px;
+    font-size: large !important;
+    color: black;
+    font-weight: 900;
+}
+
+form{
+    position: relative;
+    max-width: 200px;
+    display: inline-block;
+    text-align: left;
+    left: 100px;
+    top: 100px;
+    width: 100px;
+}
+
+p{
+    font-size:0.8em;
+    color:red;
+    display: block;
+    width: 400px;
+}
+
+input{
+    display: inline-block;
+    min-width: 200px;
+    border-radius: 3px;
+}
+
+#container_switch_form{
+    position: relative;
+    top: 90px;
+    padding-left: 50px;
+    font-size: 20px !important;
+    border-bottom: 1px solid black;
+}
+
+.glyphicon-plus{
+    top: 60px;
+    left: 410px;
+    font-size: 22px;
+}
+
+.glyphicon-plus:hover{
+    cursor: pointer;
+}
+
+#adminSuccessText{
+    position: relative;
+    font-size:1em;
+    color:green !important;
+    top: 112px;
+    left: 100px;
+}
+
+#adminErrorText{
+    position: relative;
+    font-size:1em;
+    top: 110px;
+    left: 100px;
+}
+

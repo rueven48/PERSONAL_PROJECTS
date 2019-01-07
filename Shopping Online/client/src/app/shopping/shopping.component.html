@@ -1,0 +1,47 @@
+
+<div id="container">
+
+  <div id="left_panel">
+
+      <app-search></app-search>
+
+      <div id="container_cart_parent" >
+
+        <span id="container_cart">
+            <img id="cart_image" src="./../../assets/images/myCart.png"/>
+        </span>
+
+      </div>
+
+
+      <div id="delete_all_items_container" *ngIf="user.cart.length !=0">
+
+        <button (click)="deleteAllCartItems(user.cart[0].cartId)" class="btn btn-danger">Empty Your Cart</button>
+
+      </div>
+
+      <app-user-cart></app-user-cart>
+
+      <div id="contaniner_total_cartItems" >
+         <label *ngIf="user.cart.length !=0">Total: ${{user.sumAmountCartItems.totalAmount}}</label>
+      </div>
+
+      <div>
+          <a *ngIf="user.cart.length !=0" routerLink="/order" (click)="countClickOnGoToOrder()" class="btn btn-primary" id="order_link" >Go To Order</a>
+      </div>
+
+  </div>
+
+  <div id="right_panel">
+
+      <app-products> </app-products>
+
+  </div>
+
+</div>
+
+
+
+
+
+

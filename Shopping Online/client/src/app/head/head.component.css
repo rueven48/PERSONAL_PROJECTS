@@ -1,0 +1,29 @@
+img{
+    height:50px;
+}
+
+.navbar-header,#myNavbar{
+    height: 90px;
+    padding: 20px;
+}
+
+.navbar-header{
+    position: relative;
+}
+
+#profile{
+    margin-left:20px;
+    display: inline-block;
+    color:white;
+}
+
+#logout_button{
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    top: 55px;
+    left: 90px;
+}
+
+
+

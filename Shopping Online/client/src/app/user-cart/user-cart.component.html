@@ -1,0 +1,62 @@
+
+
+  <table *ngIf="user.cart?.length != 0"  [id]="(switchMyCartStateOrderOrShopping.position=='order') ? 'table_order' : '' ">
+
+    <tr>
+      <th></th>
+      <th>Product Name</th>
+      <th>Total Quantity</th>
+      <th>Total Price</th>
+      <th>Image</th>
+
+      <div id="delete_th" [ngSwitch]="switchMyCartStateOrderOrShopping.position">
+        <th *ngSwitchCase ="'shopping'">Delete</th>
+      </div>
+    </tr>
+    <tr *ngFor="let cartitem of user.cart">
+      <td class="label_cart_item_inMyCart">Cart Item:</td>
+
+      <td [ngSwitch]="cartItemSearch.cartItems.includes(cartitem.name)">
+        <p *ngSwitchCase = "true" class="cart_item_classsic_inMyCart bg-warning">{{cartitem.name}}</p>
+        <p *ngSwitchCase = "false" class="cart_item_classsic_inMyCart">{{cartitem.name}}</p>
+      </td>
+
+
+      <td class="cart_item_classsic_inMyCart">{{cartitem.quantity}}</td>
+      <td class="cart_item_classsic_inMyCart totalPriceGroup">${{cartitem.totalPrice}}</td>
+      <td class="cart_item_classsic_inMyCart"><img class="cart_item_image_inMyCart" src="./../../assets/images/{{cartitem.image}}"></td>
+      <td class="cart_item_classsic_inMyCart" [ngSwitch]="switchMyCartStateOrderOrShopping.position">
+
+        <div *ngSwitchCase ="'shopping'" (click)="deleteItemFromCart(cartitem)" class="delete_item_container" > <span class="glyphicon glyphicon-trash"> </span></div>
+
+      </td>
+
+    </tr>
+  </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

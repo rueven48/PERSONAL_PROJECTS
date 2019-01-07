@@ -1,0 +1,21 @@
+h1{
+    position: relative;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom:60px;
+    top: 100px;
+}
+
+div{
+     text-align: center;
+}
+
+.btn{
+    position: relative;
+    top: 300px;
+    right: 20%;
+}
+img{
+    width: 500px;
+    height: 500px;
+}

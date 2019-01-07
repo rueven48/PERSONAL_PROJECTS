@@ -1,0 +1,86 @@
+
+<div id="wrapper">
+  <div id="part1">
+
+
+    <div id="inner_container_search">
+
+      <label class="label_search" for="input_search">Search Product:</label>
+
+      <input type="text" #items_search name="search_input" id="input_search" (keyup)="searchItems(items_search.value)" >
+
+        <i class="fa fa-search" aria-hidden="true"></i>
+
+    </div>
+
+
+    <div id="container_cart_parent" >
+
+      <span id="container_cart">
+          <img id="cart_image" src="./../../assets/images/myCart.png"/>
+      </span>
+
+    </div>
+
+    <app-user-cart></app-user-cart>
+
+    <div id="contaniner_total_cartItems" >
+       <label>Total: ${{user.sumAmountCartItems.totalAmount}}</label>
+    </div>
+
+    <a routerLink="/shopping" id="btn_back_to_shop" class="btn btn-primary">Back to shop</a>
+
+  </div>
+
+  <div id="part2">
+
+    <div id="container_of_title">
+            <p id="title_new_order">New order</p>
+    </div>
+
+          <form [formGroup]="orderForm">
+
+              <div class="form-group">
+                  <label>City:</label>
+                  <input type="text" #city class="form-control"  (dblclick)="setCityFieldValueByCurrUser()" value="{{currCityOfUser}}"  formControlName="city" placeholder="E.g jerusalem" />
+                  <p>{{orderForm.controls.city.errors?.err}}</p>
+              </div>
+
+              <div class="form-group">
+                  <label>Street:</label>
+                  <input type="text" #street class="form-control" (dblclick)="setStreetFieldValueByCurrUser()" value="{{currStreetOfUser}}" formControlName="street" placeholder="E.g rakefet 18" />
+                  <p>{{orderForm.controls.street.errors?.err}}</p>
+              </div>
+
+
+              <div class="form-group">
+                  <label>Shipping Date:</label>
+                  <input type="date" #shippingDate  class="form-control" [min] ="currDateToday" formControlName="shippingDate" placeholder="E.g date" />
+                  <p>{{orderForm.controls.shippingDate.errors?.err}}</p>
+              </div>
+
+              <div class="form-group">
+                      <label>Credit Card:</label>
+                      <input type="text" #creditCardDigits  class="form-control" formControlName="creditCard" placeholder="Credit card last 4 digits" />
+                      <p>{{orderForm.controls.creditCard.errors?.err}}</p>
+              </div>
+
+
+              <div class="parent">
+
+                  <div class="child1" >
+
+                      <input class="form-control btn btn-primary" type="submit" value="Order" [disabled]="orderForm.invalid"  (click)="validationBeforeOrderCreate(city.value,street.value,shippingDate.value,creditCardDigits.value)" />
+
+                  </div>
+
+              </div>
+
+          </form>
+          <p id="order_error">{{orderPageformErrors.orderErrorText}}</p>
+
+  </div>
+
+
+
+</div>

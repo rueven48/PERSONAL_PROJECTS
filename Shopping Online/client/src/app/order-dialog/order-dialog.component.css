@@ -1,0 +1,33 @@
+.main-card{
+    width: 500px;
+    height: 300px;
+    background-color:#9ca7d2;
+    color: black;
+    position: fixed;
+    top: 30%;
+    left: 35%;
+}
+
+.button_ok_inDialog{
+    position: relative;
+    top: 144px;
+    left: 200px;
+}
+
+.text_inDialog{
+    position: relative;
+    top: 55px;
+    left: 150px;
+    font-size: 15px;
+}
+
+.button_downloadPlusLabel_inDialog{
+    position: relative;
+    top: 90px;
+    left: 118px;
+}
+
+
+.btn:focus{
+    outline: none;
+}

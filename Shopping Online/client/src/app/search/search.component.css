@@ -1,0 +1,29 @@
+
+#inner_container_search{
+    position: relative;
+	display: block;
+    width: 100%;
+    height: 0px;
+    top: 20px;
+}
+
+.fa-search{
+	position: absolute;
+	top: 11px;
+	left: 309px;
+}
+
+.label_search{
+    position: absolute;
+    left: 53px ;
+    top: 4px;
+    color: black;
+}
+
+#input_search{
+    position: absolute;
+    left: 170px;
+    top: 2px;
+}
+
+

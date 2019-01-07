@@ -1,0 +1,40 @@
+
+<mat-card class="main-card" *ngIf="selectedProductFromCategory.item">
+	<mat-card-header>
+		<mat-card-title><strong class="product_details_title">Product Details:</strong></mat-card-title>
+    <mat-icon (click)="closeDialog()" id ="close-icon"><span class="glyphicon glyphicon-remove"></span></mat-icon>
+  </mat-card-header>
+  <hr/>
+  <mat-card-content>
+
+      <div class="product_name_inDialog">
+        <label>Product Name:</label> {{selectedProductFromCategory.item?.name}}
+      </div>
+
+      <div class="product_price_inDialog">
+        <label>Price:</label> ${{selectedProductFromCategory.item?.price}}
+      </div>
+
+
+      <div class="product_image_inDialog_container">
+        <img class="product_image_inDialog" src="./../../assets/images/{{selectedProductFromCategory.item?.image}}">
+      </div>
+
+      <div class="product_total_price_inDialog">
+        <label>Total Price:</label> <label class="dollar_sign_label_inDialog">$</label><input  #totalprice class="product_total_price_input_inDialog" [value] ="selectedProductFromCategory.item.price * ProductQuantityValue" disabled>
+      </div>
+
+      <div class="container_of_quantities">
+        <input type="number" #quantity class="input_quantity_of_products" [value] = "ProductQuantityValue" min="1">
+
+        <button class="plus_product" (click) = "plusOneQuantity(quantity.value)" ><span class="glyphicon glyphicon-plus"></span></button>
+        <button class="minus_product" (click) = "minusOneQuantity(quantity.value)" ><span class="glyphicon glyphicon-minus"></span></button>
+        <label class="per_unit_label">per unit</label>
+      </div>
+
+      <div class="button_add_inDialog">
+        <button mat-button class="btn btn-primary"  (click)="validQuantityBiggerThanZero(selectedProductFromCategory.item._id,quantity.value,totalprice.value)">ADD</button>
+      </div>
+  </mat-card-content>
+
+</mat-card>

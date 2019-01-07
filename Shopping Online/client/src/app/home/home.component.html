@@ -1,0 +1,194 @@
+
+<div id="wrapper">
+    <div id="part1">
+
+        <div class="col-xs-offset-6 col-xs-3 col-md-offset-4 col-md-4" >
+            <div [ngSwitch]="homePageState.position">
+                <div *ngSwitchCase="'login'">
+                    <form [formGroup]="loginForm">
+
+                        <h3> Register ?</h3>
+
+                        <div class="form-group">
+                            <label>User Name:</label>
+                            <input type="text" class="form-control" formControlName="userName" placeholder="E.g isreal isreali" />
+                            <p>{{loginForm.controls.userName.errors?.err}}</p>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label>User Password:</label>
+                            <input type="password" class="form-control" formControlName="userPassword" placeholder="insert Password" />
+                            <p>{{loginForm.controls.userPassword.errors?.err}}</p>
+                        </div>
+
+
+                        <div class="parent">
+
+                            <div class="child1">
+                                <input class="form-control btn btn-primary" type="submit" value="Login" [disabled]="loginForm.invalid" (click)="loginUser()" />
+                            </div>
+
+
+                            <div class="child2">
+                                <button class="btn btn-link" (click)="changeState('register')">Go to register</button>
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                    <p id="resgiter_error">{{homePageFormErrors.loginText}}</p>
+
+
+                </div>
+
+
+
+                <div *ngSwitchCase="'register'">
+                    <form [formGroup]="registerForm">
+
+                        <h5  class="steps_headline">Sign In - User "STEP 1"</h5>
+
+
+                        <div class="form-group">
+                            <label>User Id:</label>
+                            <input type="text" class="form-control" formControlName="userId" placeholder="E.g 040854117"/>
+                            <p>{{registerForm.controls.userId.errors?.err}}</p>
+                        </div>
+
+                        <div class="form-group">
+                            <label>User Name:</label>
+                            <input type="text" class="form-control" formControlName="userName" placeholder="E.g isreal@gmail.com"/>
+                            <p>{{registerForm.controls.userName.errors?.err}}</p>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label>User Password:</label>
+                            <input type="password" #userPassword class="form-control" formControlName="userPassword" />
+                            <p>{{registerForm.controls.userPassword.errors?.err}}</p>
+                        </div>
+
+                        <div class="form-group">
+                                <label>User Password Confirm:</label>
+                                <input type="password" #userPasswordConfirm class="form-control" formControlName="userPasswordConfirm" />
+                                <p>{{registerForm.controls.userPasswordConfirm.errors?.err}}</p>
+                        </div>
+
+
+                        <div class="parent">
+
+                            <div class="child1" >
+
+                                <input class="form-control btn btn-primary" type="submit" value="Next" [disabled]="registerForm.invalid" (click)="validatePasswordConfirm(userPassword.value,userPasswordConfirm.value)" />
+
+                            </div>
+
+                            <div class="child2" >
+
+                                <button class="btn btn-link" (click)="changeState('login')">Go to login</button>
+
+                            </div>
+
+                        </div>
+
+
+                    </form>
+                    <p id="resgiter_error">{{homePageFormErrors.registerText}}</p>
+                </div>
+
+
+
+                <div *ngSwitchCase="'registerStepTwo'">
+                    <form [formGroup]="registerStepTwoForm">
+
+                        <h5  class="steps_headline">Sign In - User "STEP 2"</h5>
+
+                        <div class="form-group">
+                            <label>City:</label>
+                            <select formControlName="city">
+
+                                <option value="" selected disabled hidden>
+                                    Choose here
+                                </option>
+
+                                <option *ngFor="let city of citiesArr">
+                                    {{city}}
+                                </option>
+                                <p>{{registerStepTwoForm.controls.city.errors?.err}}</p>
+                            </select>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label>Street:</label>
+                            <input type="text" class="form-control" formControlName="street" placeholder="E.g yafo" />
+                            <p>{{registerStepTwoForm.controls.street.errors?.err}}</p>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label>First Name:</label>
+                            <input type="text" class="form-control" formControlName="firstName" placeholder="E.g isreal" />
+                            <p>{{registerStepTwoForm.controls.firstName.errors?.err}}</p>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Last Name:</label>
+                            <input type="text" class="form-control" formControlName="lastName" placeholder="E.g isreali" />
+                            <p>{{registerStepTwoForm.controls.lastName.errors?.err}}</p>
+                        </div>
+
+                        <a routerLink="/products"> <input class="form-control btn btn-primary" type="submit" value="Submit" [disabled]="registerStepTwoForm.invalid" (click)="registerUserStepTwo()" /> </a>
+
+                        <div class="child2" >
+
+                            <button class="btn btn-link" (click)="changeState('login')">Go to login</button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="part2">
+
+        <img id="shop_image" src = "./../../assets/images/shopPicture.jpg">
+
+        <h2 id="title_who_we_are">Who we are ?</h2>
+
+            <ul >
+
+                <li>Customer friendly e-commerce website to securely purchase items online.</li>
+                <li>The cross-border online shopping trend is growing around the world and Europe is no exception</li>
+                <li>We save time and money buying from shopping online.</li>
+                <li>Items offered at best possible prices.</li>
+                <li>A major chunk of consumers who order groceries online are enticed by free online grocery delivery.</li>
+
+            </ul>
+    </div>
+
+    <div id="part3" >
+            <div id="customer_service_image" >
+                    <img src="./../../assets/images/customer-Service.png" />
+            </div>
+
+            <p class="information_quantity">
+                Avaliable products in our store: {{counterForNumberOfAllProducts.numbers}}
+            </p>
+
+            <p class="information_quantity">
+                Number of orders submitted in our store: {{counterForNumberOfOrders.numbers}}
+            </p>
+
+
+    </div>
+
+</div>

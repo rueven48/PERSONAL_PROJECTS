@@ -1,0 +1,16 @@
+h1{
+    position: relative;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom:60px;
+    top: 100px;
+}
+
+div{
+     text-align: center;
+}
+
+.btn{
+    position: relative;
+    top: 130px;
+}

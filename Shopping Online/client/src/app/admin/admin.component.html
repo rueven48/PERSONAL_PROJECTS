@@ -1,0 +1,158 @@
+
+<div id="container">
+
+  <div id="left_panel">
+
+    <app-search></app-search>
+
+      <div id="container_cart_parent" >
+
+
+      </div>
+
+
+
+       <div>
+
+        <div [ngSwitch]="state.position">
+
+            <div *ngSwitchCase="'edit'" id="container_switch_form">
+                Name: {{user.product.name}}
+            </div>
+
+            <div *ngSwitchCase="'add'" id="container_switch_form">
+                Create New Product:
+            </div>
+
+        </div>
+
+
+       <span (click)="changeStateOfAdminEditOrAddProducts('add')" class="glyphicon glyphicon-plus"></span>
+
+       <div [ngSwitch]="state.position">
+
+            <div *ngSwitchCase="'edit'">
+                <form [formGroup]="adminEditForm">
+
+                <div class="form-group">
+                    <label>Product Name:</label>
+                    <input type="text" #editProductName class="form-control" formControlName="name" value="{{user.product?.name}}" />
+                    <p>{{adminEditForm.controls.name.errors?.err}}</p>
+                </div>
+
+
+                <div class="form-group">
+                    <label>Product Id:</label>
+                    <input type="text" #editProductId class="form-control" value="{{user.product?._id}}" disabled />
+                </div>
+
+                <div class="form-group">
+                    <label>Product Price:</label>
+                    <input type="text" #editProductPrice class="form-control" formControlName="price" value="{{user.product?.price}}"/>
+                    <p>{{adminEditForm.controls.price.errors?.err}}</p>
+                </div>
+
+                <div class="form-group">
+                    <label>Image:</label>
+                    <input type="text" #editProductImage class="form-control" formControlName="image" value="{{user.product?.image}}"/>
+                    <p>{{adminEditForm.controls.image.errors?.err}}</p>
+                </div>
+
+
+                <div class="form-group">
+                    <label>Category:</label>
+                    <select formControlName="categoryName" #categoryNameSelected [value]="categoryObjOfProductByAdmin.item?.name">
+
+                        <option *ngFor="let category of categories.items">
+                            {{category.name}}
+                        </option>
+                        <p>{{adminEditForm.controls.categoryName.errors?.err}}</p>
+                    </select>
+                </div>
+
+
+                <div class="parent">
+
+                    <div class="child1" >
+
+                        <input class="form-control btn btn-primary" type="submit" value="Save" [disabled]="adminEditForm.invalid"  (click)="validAdminEdit(editProductName.value,editProductId.value,editProductPrice.value,editProductImage.value,categoryNameSelected.value)" />
+
+                    </div>
+
+                </div>
+
+                </form>
+
+            </div>
+
+
+            <div *ngSwitchCase="'add'">
+                <form [formGroup]="adminAddForm">
+
+                    <div class="form-group">
+                        <label>Product Name:</label>
+                        <input type="text" #addProductName class="form-control" formControlName="name"/>
+                        <p>{{adminAddForm.controls.name.errors?.err}}</p>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label>Product Price:</label>
+                        <input type="text" #addProductPrice class="form-control" formControlName="price"/>
+                        <p id="priceErrorMessage">{{adminAddForm.controls.price.errors?.err}}</p>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Image:</label>
+                        <input type="text" #addProductImage class="form-control" formControlName="image" placeholder="File format : name.xxx"/>
+                        <p>{{adminAddForm.controls.image.errors?.err}}</p>
+                    </div>
+
+
+                    <div class="form-group">
+                    <label>Category:</label>
+                    <select  #categoryNameSelected [value]="categoryObjOfProductByAdmin.item?.name">
+
+                        <option *ngFor="let category of categories.items">
+                            {{category.name}}
+                        </option>
+
+                    </select>
+                    </div>
+
+
+                    <div class="parent">
+
+                        <div class="child1" >
+
+                            <input class="form-control btn btn-primary" type="submit" value="Save" [disabled]="adminAddForm.invalid"  (click)="addProductByAdmin(categoryNameSelected.value)" />
+
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+        <p id="adminSuccessText">{{adminPageFormMessages.adminSuccessText}}</p>
+        <p id="adminErrorText">{{adminPageFormMessages.adminErrorText}}</p>
+
+
+      </div>
+
+
+  </div>
+
+  <div id="right_panel">
+
+      <app-products> </app-products>
+
+  </div>
+
+</div>
+
+
+
+
+

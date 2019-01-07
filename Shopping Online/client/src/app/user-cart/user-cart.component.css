@@ -1,0 +1,84 @@
+
+#table_order{
+    position: relative;
+    display: block;
+    max-height:418px;
+    height: 500px;
+    overflow-y: auto;
+    max-width: 450px;
+    top: 110px !important;
+    left: 20% !important;
+    table-layout: fixed;
+}
+
+table{
+    position: relative;
+    display: block;
+    max-height:418px;
+    height: 470px;
+    overflow-y: auto;
+    max-width: 450px;
+    top: 80px;
+    table-layout: fixed;
+}
+
+tr,th{
+    max-width: 100px;
+    text-align: center;
+}
+
+#delete_th{
+    position: relative;
+    top: 13px;
+}
+
+.label_cart_item_inMyCart{
+    width: 70px !important;
+    text-align: center;
+    height: 90px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cart_item_classsic_inMyCart{
+    width: 70px !important;
+    height: 19px !important;
+    word-wrap:break-word;
+    text-align: center;
+
+}
+
+.cart_item_image_inMyCart{
+    width: 80px;
+    height: 80px;
+}
+
+
+.delete_item_container:hover{
+    cursor: pointer;
+}
+
+table::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+table::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+table::-webkit-scrollbar-thumb
+{
+	background-color: #F90;
+	background-image: -webkit-linear-gradient(45deg,
+	                                          rgba(255, 255, 255, .2) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(255, 255, 255, .2) 50%,
+											  rgba(255, 255, 255, .2) 75%,
+											  transparent 75%,
+											  transparent)
+}

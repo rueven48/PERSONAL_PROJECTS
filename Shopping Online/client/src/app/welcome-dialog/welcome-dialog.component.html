@@ -1,0 +1,60 @@
+
+<mat-card class="main-card">
+
+  <mat-card-header>
+		<mat-card-title><strong id="headline_text">Welcome:</strong></mat-card-title>
+  </mat-card-header>
+  <hr/>
+
+  <mat-card-content>
+
+    <div [ngSwitch]="user.cartStatus.status">
+
+          <div *ngSwitchCase="'none'">
+
+            <div class="text_inDialog">
+                This is your first buy in our Online Shop !!!
+            </div>
+
+            <div class="button_ok_inDialog">
+                <button mat-button class="btn btn-primary" (click)="close()">Start Buying</button>
+            </div>
+
+          </div>
+
+
+          <div *ngSwitchCase="'open'">
+
+            <div class="text_inDialog">
+
+                    Last date you bought: {{user.lastOpenCart.date | date: 'dd-MM-yyyy'}}
+
+                <div>
+                    Last total amount you bought: ${{ user.sumAmountCartItems.totalAmount }}
+                </div>
+
+            </div>
+
+            <div class="button_ok_inDialog">
+                <button mat-button class="btn btn-primary" (click)="close()">Continue Buying</button>
+            </div>
+        </div>
+
+          <div *ngSwitchCase="'closed'">
+
+              <div class="text_inDialog">
+                  Last total amount you bought was : $ {{lastOrderOfCurrUser.orderDetails?.totalPrice}}  !!!
+              </div>
+
+              <div class="button_ok_inDialog">
+                  <button mat-button class="btn btn-primary" (click)="close()">Start Buying</button>
+              </div>
+
+          </div>
+
+      </div>
+
+  </mat-card-content>
+
+</mat-card>
+

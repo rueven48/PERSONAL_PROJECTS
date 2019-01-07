@@ -1,0 +1,26 @@
+<div>
+
+
+
+  <div id="drag"></div>
+
+  <ul id="container_of_categories">
+      <li class="categories" *ngFor="let category of categories.items">
+        <button class="btn btn-link {{category.name}}" (click)="getProductsOfCategory(category._id)"> {{category.name}} |</button>
+      </li>
+  </ul>
+
+  <img id="shooping_slide" src="./../../assets/images/slide.jpg">
+
+  <ul id="container_of_products" >
+    <li class="products" *ngFor="let product of selectedProductsFromCategory.items">
+        <img class="products_images" alt="product pic"  src="./../../assets/images/{{product.image}}"/>
+        <p class="product_price">${{product.price}}</p>
+        <p class="productNameP">{{product.name}}</p>
+        <div [ngSwitch]="addButtonOfproductFunctionalityState.state">
+            <button *ngSwitchCase = "false" class="btn btn-primary choose_button" (click)="openConfirmDialog(product)">Choose</button>
+            <button *ngSwitchCase = "true" class="btn btn-primary choose_button" (click)="displayProductInAdminEdit(product)">Choose</button>
+        </div>
+    </li>
+  </ul>
+</div>
