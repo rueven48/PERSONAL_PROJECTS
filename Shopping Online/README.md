@@ -30,6 +30,10 @@ Angular5, Node Js, MongoDb, Bootstrap, Css, Html.
 
 ![shopping](https://user-images.githubusercontent.com/40452887/50759852-e178be80-126e-11e9-83ea-bdaf80937c80.png)
 
+## Screenshot : Shopping - adding products to my cart
+
+![shopping_adding_items_cart](https://user-images.githubusercontent.com/40452887/50760155-a6c35600-126f-11e9-816c-efc7ada19760.png)
+
 ## Screenshot : Order
 
 ![order](https://user-images.githubusercontent.com/40452887/50759992-387e9380-126f-11e9-940d-df09a6684cd3.png)
