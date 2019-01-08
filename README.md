@@ -30,7 +30,7 @@
 
 ![school_main1](https://user-images.githubusercontent.com/40452887/46909734-d3512580-cf3f-11e8-955f-5badc903f2ab.png)
 
-**4. Shopping Online.**
+**4. Shopping Online project.**
 
 * Technologies :
 
