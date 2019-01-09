@@ -5,6 +5,9 @@
 * Technologies :
 
   Html, Css, Javascript.
+  
+* See live demo :
+http://notes.rueven.dx.am/
 
 * Screenshot :
 
