@@ -44,5 +44,5 @@ https://shoppingruevenonline.herokuapp.com
 
 * Screenshot :
 
-![shopping_login](https://user-images.githubusercontent.com/40452887/50758566-39152b00-126b-11e9-802b-ac8448b79ac5.png)
+![shopping_home_page](https://user-images.githubusercontent.com/40452887/51128748-49ac3f00-1831-11e9-98c8-8ec521520f27.png)
 
