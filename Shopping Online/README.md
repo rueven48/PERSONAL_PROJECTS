@@ -12,6 +12,8 @@ Only an admin can update or add products on the site.<br />
 
 Angular5, Node Js, MongoDb, Bootstrap, Css, Html.
 
+## See live demo :
+https://shoppingruevenonline.herokuapp.com
 
 ## Screenshot : Login
 
