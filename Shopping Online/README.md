@@ -29,7 +29,7 @@ https://shoppingruevenonline.herokuapp.com
 
 ## Screenshot : Shopping
 
-![shopping](https://user-images.githubusercontent.com/40452887/50759852-e178be80-126e-11e9-83ea-bdaf80937c80.png)
+![shopping](https://user-images.githubusercontent.com/40452887/51129704-ccce9480-1833-11e9-9448-6ad5e4f1d292.png)
 
 ## Screenshot : Shopping - adding products to my cart
 
