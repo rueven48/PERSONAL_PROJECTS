@@ -21,7 +21,7 @@ https://shoppingruevenonline.herokuapp.com
 
 ## Screenshot : Register - step 1
 
-![shopping_register_step1](https://user-images.githubusercontent.com/40452887/50759674-50a1e300-126e-11e9-82fb-34611d1d88ca.png)
+![shopping_register_step1](https://user-images.githubusercontent.com/40452887/51129435-1ec2ea80-1833-11e9-9011-1a04fc4c0f36.png)
 
 ## Screenshot : Register - step 2
 
