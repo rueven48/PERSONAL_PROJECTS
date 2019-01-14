@@ -45,21 +45,9 @@ https://shoppingruevenonline.herokuapp.com
 
 ## Screenshot : Admin - edit product
 
-![admin_add](https://user-images.githubusercontent.com/40452887/50760345-379a3180-1270-11e9-9c3f-4f871777f4fc.png)
+![admin_edit](https://user-images.githubusercontent.com/40452887/51130059-cb519c00-1834-11e9-9242-64f5b6a0dca4.png)
 
 ## Screenshot : Admin - add product
 
-![admin_edit](https://user-images.githubusercontent.com/40452887/50760316-146f8200-1270-11e9-8aad-036ac7836b8d.png)
-
-
-
-
-
-
-
-
-
-
-
-
+![admin_add](https://user-images.githubusercontent.com/40452887/51130097-dc9aa880-1834-11e9-9df0-6b6a1586b716.png)
 
