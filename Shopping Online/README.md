@@ -41,7 +41,7 @@ https://shoppingruevenonline.herokuapp.com
 
 ## Screenshot : Order - order success message and receipt
 
-![order_success](https://user-images.githubusercontent.com/40452887/50760651-0b32e500-1271-11e9-8230-2cc870ab79c8.png)
+![order_recipt](https://user-images.githubusercontent.com/40452887/51129954-7dd52f00-1834-11e9-87c0-5bdb44da3524.png)
 
 ## Screenshot : Admin - edit product
 
