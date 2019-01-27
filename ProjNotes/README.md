@@ -6,6 +6,21 @@ Create tasks notes in client side so that the user can add or delete personal ta
 
 ## Using technologies :
 
+<p align="center">
+  <a href="http://slack.blazejs.org" target="_blank">
+  	<img src="http://slack.blazejs.org/badge.svg">
+  </a>
+  <a href="https://circleci.com/gh/meteor/blaze" target="_blank">
+  	<img src="https://circleci.com/gh/meteor/blaze.svg?style=shield">
+  </a>
+  <a href="#backers">
+  	<img src="https://opencollective.com/blaze/backers/badge.svg">
+  </a>
+  <a href="#sponsors">
+  	<img src="https://opencollective.com/blaze/sponsors/badge.svg">
+  </a>
+</p>
+
 Html, Css, Javascript.
 
 ## See live demo :
