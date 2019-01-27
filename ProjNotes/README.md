@@ -1,22 +1,3 @@
-
-<p align="center">
-  <img src="https://cdn.rawgit.com/meteor/blaze/master/images/logo.svg" width="260" />
-</p>
-<p align="center">
-  <p>
-  	<img src="http://slack.blazejs.org/badge.svg">
-  </p>
-  <p>
-  	<img src="https://circleci.com/gh/meteor/blaze.svg?style=shield">
-  </p>
-  <p>
-  	<img src="https://opencollective.com/blaze/backers/badge.svg">
-  </p>
-  <p>
-  	<img src="https://opencollective.com/blaze/sponsors/badge.svg">
-  </p>
-</p>
-
 # Project Notes :
 
 ## Description :
