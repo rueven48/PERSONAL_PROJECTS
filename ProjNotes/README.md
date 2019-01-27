@@ -3,18 +3,18 @@
   <img src="https://cdn.rawgit.com/meteor/blaze/master/images/logo.svg" width="260" />
 </p>
 <p align="center">
-  <a href="http://slack.blazejs.org" target="_blank">
+  <p>
   	<img src="http://slack.blazejs.org/badge.svg">
-  </a>
-  <a href="https://circleci.com/gh/meteor/blaze" target="_blank">
+  </p>
+  <p>
   	<img src="https://circleci.com/gh/meteor/blaze.svg?style=shield">
-  </a>
-  <a href="#backers">
+  </p>
+  <p>
   	<img src="https://opencollective.com/blaze/backers/badge.svg">
-  </a>
-  <a href="#sponsors">
+  </p>
+  <p>
   	<img src="https://opencollective.com/blaze/sponsors/badge.svg">
-  </a>
+  </p>
 </p>
 
 # Project Notes :
