@@ -8,7 +8,7 @@ Create tasks notes in client side so that the user can add or delete personal ta
 
 <p align="center">
   <a href="http://slack.blazejs.org" target="_blank">
-  	<img width="15px" hight="15px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png">
+  	<img width="50px" hight="50px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png">
   </a>
   <a href="https://circleci.com/gh/meteor/blaze" target="_blank">
   	<img src="https://circleci.com/gh/meteor/blaze.svg?style=shield">
