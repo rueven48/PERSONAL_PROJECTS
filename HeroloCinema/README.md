@@ -18,7 +18,7 @@ Angular5+, Bootstrap, Css, Html.
 http://herolo-cinema-rueven.herokuapp.com
 
 
-## Screenshot : Main - display all movies. (i get all 'Batman' movies for example).
+## Screenshot : Main - display all movies. (I get all 'Batman' movies for example).
 ![main](https://user-images.githubusercontent.com/40452887/52342573-7a415c00-2a1e-11e9-986a-048a2cc40e12.png)
 
 ## Screenshot : Add - add new movie to display.
