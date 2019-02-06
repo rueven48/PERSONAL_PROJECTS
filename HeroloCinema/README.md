@@ -6,7 +6,7 @@ This application is an online movies information site that using an api of OMDB 
 Every movie can be edit accordingly to the form fields.<br />
 Every movie can be add accordingly to the form fields.<br />
 Every movie can be delete.<br />
-The movies changes on site in client side and not changing the site OMDB API site (http://www.omdbapi.com).<br />
+The movies changes on site in client side and it's not changing the site OMDB API site (http://www.omdbapi.com).<br />
 
 
 ## Using technologies :
