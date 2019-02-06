@@ -50,7 +50,8 @@ https://shoppingruevenonline.herokuapp.com
 
 * Technologies :
 
-Angular5+, Bootstrap, Css, Html.
+Angular5+, Bootstrap, Css, Html.</br>
+This app is respnsive for all mobiles.
 
 
 * See live demo :
