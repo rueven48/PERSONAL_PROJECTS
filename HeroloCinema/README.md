@@ -12,6 +12,7 @@ The movies changes on site in client side and not changing the site OMDB API sit
 ## Using technologies :
 
 Angular5+, Bootstrap, Css, Html.
+This app is respnsive for all mobiles.
 
 
 ## See live demo :
