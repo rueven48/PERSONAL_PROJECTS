@@ -2,7 +2,7 @@
 
 ## Description :
 
-This application is an online movies site that using an api of OMDB API site to display diffrent movies .<br />
+This application is an online movies information site that using an api of OMDB API site to display diffrent movies .<br />
 Every movie can be edit accordingly to the form fields.<br />
 Every movie can be add accordingly to the form fields.<br />
 Every movie can be delete accordingly to the form fields.<br />
