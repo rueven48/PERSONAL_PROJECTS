@@ -1,0 +1,82 @@
+
+<form [ngSwitch]="state.position" [formGroup]="AddForm">
+
+  <div class="movieTitleContainer">
+    <span *ngSwitchCase="'add'">
+      <strong class="main_title">Add Movie:</strong>
+    </span>
+    <span *ngSwitchCase="'edit'">
+        <strong class="main_title">Edit Movie:</strong>
+    </span>
+    <img *ngSwitchCase="'add'" alt="movie_pic" class="moviePreviewImage" src="{{imageMoviePreviewSrc}}">
+    <img *ngSwitchCase="'edit'" alt="movie_pic" class="moviePreviewImage" src="{{movieSeleceted.Poster}}">
+    <i id="close_icon" class="fa fa-times-circle" (click)="closeDialog()"></i>
+  </div>
+  <hr/>
+
+
+    <div class="form-group">
+        <label>Movie Title:</label>
+        <input *ngSwitchCase="'add'" type="text" id="input_title" class="form-control" formControlName="title"/>
+        <input *ngSwitchCase="'edit'" value="{{movieSeleceted.Title}}" type="text" id="input_title" class="form-control" formControlName="title"/>
+        <p>{{AddForm.controls.title.errors?.err}}</p>
+    </div>
+
+
+    <div class="form-group">
+        <label>Movie Year:</label>
+        <input *ngSwitchCase="'add'" type="text" id="input_year" class="form-control" formControlName="year"/>
+        <input *ngSwitchCase="'edit'" value="{{movieSeleceted.Year}}" type="text" id="input_year" class="form-control" formControlName="year"/>
+        <p id="yearErrorMessage">{{AddForm.controls.year.errors?.err}}</p>
+    </div>
+
+    <div class="form-group">
+      <label>Movie Runtime:</label>
+      <input *ngSwitchCase="'add'" type="text" id="input_runtime" class="form-control" formControlName="runtime"/>
+      <input *ngSwitchCase="'edit'" value="{{movieSeleceted.Runtime}}" type="text" id="input_runtime" class="form-control" formControlName="runtime"/>
+      <p>{{AddForm.controls.runtime.errors?.err}}</p>
+    </div>
+
+    <div class="form-group">
+      <label>Movie Genre:</label>
+      <input *ngSwitchCase="'add'" type="text" id="input_genre" class="form-control" formControlName="genre"/>
+      <input *ngSwitchCase="'edit'" value="{{movieSeleceted.Genre}}" type="text" id="input_genre" class="form-control" formControlName="genre"/>
+      <p>{{AddForm.controls.genre.errors?.err}}</p>
+    </div>
+
+    <div class="form-group">
+      <label>Movie Director:</label>
+      <input *ngSwitchCase="'add'" type="text" id="input_director" class="form-control" formControlName="director"/>
+      <input *ngSwitchCase="'edit'" value="{{movieSeleceted.Director}}" type="text" id="input_director" class="form-control" formControlName="director"/>
+      <p>{{AddForm.controls.director.errors?.err}}</p>
+    </div>
+
+    <div class="form-group">
+      <label>Movie Rate:</label>
+      <input *ngSwitchCase="'add'" type="number" id="input_rate" class="form-control" formControlName="rate"/>
+      <input *ngSwitchCase="'edit'" value="{{movieSeleceted.imdbRating}}" type="number" id="input_rate" class="form-control" formControlName="rate"/>
+      <p>{{AddForm.controls.rate.errors?.err}}</p>
+    </div>
+
+    <div class="form-group">
+        <label>Image Link:</label>
+        <input  *ngSwitchCase="'add'" #movieImage type="text" id="input_image" class="form-control" formControlName="poster" (keyup)="isValidUrlPic(movieImage.value)?setPreviewPic(movieImage.value):setPreviewPic('default');"/>
+        <input *ngSwitchCase="'edit'" value="{{movieSeleceted.Poster}}" #movieImage type="text" id="input_image" class="form-control" formControlName="poster" (keyup)="isValidUrlPic(movieImage.value)?setPreviewPic(movieImage.value):setPreviewPic('default');"/>
+        <p>{{AddForm.controls.poster.errors?.err}}</p>
+    </div>
+
+
+
+    <div class="parent">
+
+        <input *ngSwitchCase="'add'" id="button_save" class="form-control btn btn-primary" type="submit" value="Save" [disabled]="AddForm.invalid"  (click)="addMovie()" />
+        <input *ngSwitchCase="'edit'" id="button_save" class="form-control btn btn-primary" type="submit" value="Save" [disabled]="AddForm.invalid"  (click)="editMovie()" />
+        <input id="button_cancel" class="form-control btn btn-primary" value="Cancel" (click)="closeDialog()" />
+    </div>
+
+
+
+  </form>
+
+
+

@@ -1,0 +1,24 @@
+<div>
+
+  <ul class="d-flex flex-row" >
+
+    <li class="mr-5 mb-3" *ngFor="let movie of movies">
+      <img class="movie_picture" [src]="movie.Poster" alt="Movie Picture">
+
+        <span class="title_name_cover my_spans">{{movie.Title|titlecase|specialPipe}}</span>
+        <span class="year_cover my_spans">Year: {{movie.Year}}</span>
+        <span class="rating_cover my_spans">Rate: {{movie.imdbRating}}</span>
+
+      <button [id]="movie.imdbID" type="button" class="edit_button_cover rounded-circle btn btn-dark" (click)="openEditDialogMovieInfo(movie.imdbID)">
+          <i class="fa fa-pencil" aria-hidden="true"></i>
+      </button>
+      <button [id]="movie.imdbID" type="button" class="delete_button_cover rounded-circle btn btn-dark" (click)="openDeleteDialog(movie.imdbID)">
+          <i class="fa fa-trash" aria-hidden="true"></i>
+      </button>
+    </li>
+
+  </ul>
+
+</div>
+
+

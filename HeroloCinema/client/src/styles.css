@@ -1,0 +1,155 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+
+body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+    background-image:
+    linear-gradient(
+      to right,
+      red,
+      #f06d06,
+      rgb(255, 255, 0),
+      green
+    );
+
+}
+
+.mat-dialog-container{
+    background-image: linear-gradient(to top, #e14fad 0%, #f9d423 100%);
+}
+
+.container_of_body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.container_of_body::-webkit-scrollbar
+{
+	width: 10px;
+    background-color: #F5F5F5;
+
+}
+
+.container_of_body::-webkit-scrollbar-thumb
+{
+	background-color: #ff3399;
+}
+
+
+.mat-dialog-container::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.mat-dialog-container::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+.mat-dialog-container::-webkit-scrollbar-thumb
+{
+	background-color: #ff3399;
+}
+
+h3, h4 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px;
+    font-size: 20px;
+    color: #111;
+}
+.container {
+    padding: 80px 120px;
+}
+
+.bg-1 {
+    color: #111;
+}
+img{
+    /* height: 300px; */
+
+}
+
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+.thumbnail p {
+    margin-top: 15px;
+    color: #555;
+}
+
+.nav-tabs li a {
+    color: #777;
+}
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+}
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left:0;
+}
+footer a {
+    color: #f5f5f5;
+}
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
+
+
+
+
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* @media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px){
+
+  .cdk-overlay-pane {
+      position: relative;
+      height: 65% !important;
+  }
+
+} */

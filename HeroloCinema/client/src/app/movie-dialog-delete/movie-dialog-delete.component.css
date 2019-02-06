@@ -1,0 +1,35 @@
+input {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  border-radius: 3px;
+}
+
+#button_save {
+  position: relative;
+  left: 15px;
+  width: 100px;
+  left: 55%;
+  top: 30px;
+}
+
+#button_cancel {
+  position: relative;
+  width: 100px;
+  left: 7%;
+  top: 30px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #button_save {
+    float: right;
+    left: 0;
+    right: 0;
+  }
+
+  #button_cancel {
+    float: left;
+    right: 0;
+    left: 0;
+  }
+}

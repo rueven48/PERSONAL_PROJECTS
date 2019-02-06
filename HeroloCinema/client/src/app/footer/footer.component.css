@@ -1,0 +1,23 @@
+footer {
+  height: 80px;
+}
+
+@media only screen
+  and (min-device-height: 481px)
+  and (max-device-height: 568px){
+    footer {
+      height: 40px;
+    }
+    .footerP {
+      bottom: 6vh !important;
+    }
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .footerP {
+    bottom: 2vh;
+    position: relative;
+  }
+}
+

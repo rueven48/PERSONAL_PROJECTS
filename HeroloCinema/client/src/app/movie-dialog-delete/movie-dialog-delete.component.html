@@ -1,0 +1,14 @@
+<div>
+
+    <span><strong class="main_title">Delete Movie Message:</strong></span>
+  <hr/>
+
+    <div class="parent">
+        <p>Are you sure you want to delete <strong>'{{movieSeleceted.Title|titlecase|specialPipe}}'</strong>?</p>
+        <input id="button_save" class="btn btn-primary" type="submit" value="Ok" (click)="deleteMovie()" />
+        <input id="button_cancel" class="btn btn-primary" value="Cancel" (click)="closeDialog()" />
+    </div>
+
+  </div>
+
+

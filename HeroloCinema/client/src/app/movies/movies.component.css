@@ -1,0 +1,195 @@
+ul {
+    position: relative;
+    list-style-type: none;
+    flex-wrap: wrap;
+    top: 12vh;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+li{
+    position: relative;
+    text-decoration: none;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+
+img{
+    height: 350px;
+    width:250px;
+}
+
+ul li:hover button{
+    visibility: visible;
+}
+
+ul li:hover{
+    font-size: 1.2em;
+    color: red;
+    font-family: Iceland;
+}
+
+ul li:hover img{
+   opacity: 0.7;
+}
+
+.edit_button_cover{
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    visibility: hidden;
+
+}
+
+.delete_button_cover{
+    position: absolute;
+    top: 20px;
+    left: 130px;
+    visibility: hidden;
+	cursor:pointer;
+}
+
+.title_name_cover{
+    position: absolute;
+    border-radius: 20px 20px 20px 20px !important;
+    background: black;
+    width: 140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    text-align: center;
+    word-wrap:break-word;
+    top: 36%;
+    right: 24%;
+    color:red;
+    font-weight: 900;
+}
+
+.year_cover{
+    position: absolute;
+    border-radius: 20px 20px 20px 20px !important;
+    background: black;
+    width: 140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    text-align: center;
+    top: 75%;
+    right: 24%;
+    color:yellow;
+    font-weight: 900;
+}
+
+.rating_cover{
+    position: absolute;
+    border-radius: 20px 20px 20px 20px !important;
+    background: black;
+    width: 140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    text-align: center;
+    top: 85%;
+    right: 24%;
+    color:green;
+    font-weight: 900;
+}
+
+ul li:hover .my_spans{
+    pointer-events: none;
+}
+
+ul .delete_button_cover:hover {
+    color: #ff6600;
+}
+
+ul .edit_button_cover:hover {
+    color: #00ff00;
+}
+
+/* ----------- iPad ----------- */
+
+@media only screen
+  and (min-device-width: 400px)
+  and (max-device-width: 768px){
+
+    ul {
+        top: 18vh !important;
+        right:-18% !important;
+    }
+}
+
+
+/* ----------- iPhone x ----------- */
+
+@media only screen
+  and (min-device-height: 737px)
+  and (max-device-height: 812px){
+
+    ul {
+        top: 27vh !important;
+        right:3% !important;
+    }
+}
+
+/* ----------- iPhone 6,7,8 plus ----------- */
+
+@media only screen
+  and (min-device-height: 668px)
+  and (max-device-height: 736px){
+
+    ul {
+        top: 25vh !important;
+        right:0% !important;
+    }
+
+}
+
+/* ----------- iPhone 6,7,8 ----------- */
+
+@media only screen
+  and (min-device-height: 569px)
+  and (max-device-height: 667px){
+
+    ul {
+        top: 32vh !important;
+        right:5% !important;
+    }
+
+}
+
+
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+@media only screen
+  and (min-device-height: 481px)
+  and (max-device-height: 568px){
+
+    ul {
+        top: 30vh !important;
+        right:10% !important;
+    }
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px){
+
+    ul {
+        right: 12vw;
+        top: 34vh;
+        margin-bottom: 24%;
+    }
+
+    .movie_picture{
+        height: 230px;
+    }
+}
+

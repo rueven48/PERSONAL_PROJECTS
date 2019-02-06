@@ -1,0 +1,215 @@
+#close_icon {
+  position: relative;
+  font-size: 26px !important;
+  left: 46%;
+  top: -60px;
+}
+
+#close_icon:hover {
+  position: relative;
+  cursor: pointer;
+}
+
+.main_title {
+  position: relative;
+  font-size: 18px;
+  top: -60px;
+}
+
+p {
+  font-size: 0.8em;
+  color: red;
+  display: block;
+  width: 400px;
+}
+
+input {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  border-radius: 3px;
+}
+
+#input_title {
+  left: 43px;
+}
+
+#input_year {
+  left: 43px;
+}
+
+#input_runtime {
+  left: 18px;
+}
+
+#input_genre {
+  left: 34px;
+}
+
+#input_director {
+  left: 20px;
+}
+
+#input_rate {
+  left: 45px;
+}
+
+#input_image {
+  left: 49px;
+}
+
+img {
+  position: relative;
+  left: 82px;
+  width: 140px;
+  height: 140px;
+}
+
+#button_save {
+  left: 15px;
+  width: 100px;
+  left: 55%;
+}
+
+#button_cancel {
+  width: 100px;
+  left: 7%;
+}
+
+#button_delete {
+  width: 130px;
+  left: -5%;
+  top: 55px;
+}
+
+
+/* ----------- iPhone x ----------- */
+
+@media only screen
+  and (min-device-height: 737px)
+  and (max-device-height: 812px){
+
+    #button_save {
+      position: relative;
+      float: right;
+      top: -0.1vh !important;
+      left: 0vw !important;
+      right: 0;
+    }
+
+    input[type='text'],input[type='number']  {
+      width: 56% !important;
+      right: 10%;
+    }
+}
+
+/* ----------- iPhone 6,7,8 plus ----------- */
+
+@media only screen
+  and (min-device-height: 668px)
+  and (max-device-height: 736px){
+
+    input[type='text'],input[type='number']  {
+      width: 60% !important;
+      right: 10%;
+    }
+
+    #button_save {
+      position: relative;
+      float: right;
+      top: -0.1vh !important;
+      left: 0vw !important;
+      right: 0;
+    }
+
+}
+
+
+
+/* ----------- iPhone 6,7,8  ----------- */
+
+@media only screen
+  and (min-device-height: 569px)
+  and (max-device-height: 667px){
+
+    #button_save {
+      position: relative;
+      float: right;
+      top: -0.1vh !important;
+      left: 0vw !important;
+      right: 0;
+    }
+
+    input[type='text'],input[type='number']  {
+      width: 54% !important;
+      right: 10%;
+    }
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+@media only screen
+  and (min-device-height: 481px)
+  and (max-device-height: 568px){
+
+    #button_save {
+      position: relative;
+      float: right;
+      top: 6.9vh !important;
+      left: 4vw;
+      right: 0;
+
+    }
+}
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #button_save {
+    float: right;
+    left: 4vw;
+    right: 0;
+    top: 8vh;
+  }
+
+  #button_cancel {
+    float: left;
+    right: 0;
+    left: 0;
+  }
+
+  .movieTitleContainer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .main_title{
+    right: 6vw;;
+  }
+
+  .moviePreviewImage {
+    position: relative;
+    left: 37%;
+  }
+
+  #close_icon {
+    position: relative;
+    font-size: 26px !important;
+    left: 0;
+    top: 0;
+  }
+  input{
+    width: 47%;
+    right: 10%;
+  }
+
+  .form-group{
+    position: relative;
+    right: 4vw;
+  }
+
+
+}
+
