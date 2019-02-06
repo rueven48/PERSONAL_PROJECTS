@@ -35,7 +35,7 @@ http://herolo-cinema-rueven.herokuapp.com
 
 ### To run this project in your local computer, you need:
 * Angular cli
-* Install npm.
+* Install npm: "npm install".
 * Install npm Material: "npm install --save @angular/material @angular/cdk @angular/animations".
 * Run the command: "ng serve" inside client folder.
 
