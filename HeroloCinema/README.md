@@ -33,7 +33,7 @@ http://herolo-cinema-rueven.herokuapp.com
 
 ![delete](https://user-images.githubusercontent.com/40452887/52342927-63e7d000-2a1f-11e9-9238-c6fe0616c507.png)
 
-###To run this project in your local computer, you need:
+### To run this project in your local computer, you need:
 * Angular cli
 
 
