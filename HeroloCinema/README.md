@@ -12,3 +12,7 @@ The movies changes on site in client side and not changing the site OMDB API sit
 ## Using technologies :
 
 Angular5+, Bootstrap, Css, Html.
+
+
+## See live demo :
+http://herolo-cinema-rueven.herokuapp.com
