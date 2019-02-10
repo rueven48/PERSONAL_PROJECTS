@@ -41,7 +41,7 @@ http://herolo-cinema-rueven.herokuapp.com
 * Install npm: "npm install".
 * Install npm Material: "npm install --save @angular/material @angular/cdk @angular/animations".
 * Run the command: "ng serve" inside client folder.
-* In url ite localhost:4200/app/home to lunch app.
+* In url site localhost:4200/app/home to lunch app.
 
 
 
