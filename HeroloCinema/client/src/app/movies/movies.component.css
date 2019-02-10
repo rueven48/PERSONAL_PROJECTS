@@ -148,6 +148,8 @@ ul .edit_button_cover:hover {
 
 }
 
+
+
 /* ----------- iPhone 6,7,8 ----------- */
 
 @media only screen
@@ -175,6 +177,18 @@ ul .edit_button_cover:hover {
     }
 }
 
+/* ----------- GALAXY S5 ----------- */
+
+@media only screen
+  and (min-device-width: 321px)
+  and (max-device-width: 640px){
+
+    ul {
+        top: 24vh !important;
+    }
+
+}
+
 /* ----------- iPhone 4 and 4S ----------- */
 
 
@@ -192,4 +206,5 @@ and (max-device-width: 480px){
         height: 230px;
     }
 }
+
 

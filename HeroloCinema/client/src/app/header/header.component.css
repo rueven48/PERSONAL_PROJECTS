@@ -38,13 +38,44 @@ li a {
 /* ----------- iPad ----------- */
 
 @media only screen
-  and (min-device-width: 400px)
+  and (min-device-width: 415px)
   and (max-device-width: 768px){
 
     .main_headline{
         font-size: 14px !important;
     }
 }
+
+/* ----------- iPhone 6,7,8 plus----------- */
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 414px){
+
+  h3{
+      font-size: 12px !important;
+      letter-spacing: 4px;
+  }
+
+
+}
+
+
+/* ----------- iPhone 6,7,8 ----------- */
+
+ @media only screen
+  and (min-device-height: 569px)
+  and (max-device-height: 667px){
+
+    h3{
+        font-size: 8px !important;
+        letter-spacing: 4px;
+    }
+
+
+}
+
+
 
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
 
@@ -59,6 +90,20 @@ li a {
 
 }
 
+/* ----------- GALAXY S5 ----------- */
+
+@media only screen
+  and (min-device-height: 360px)
+  and (max-device-height: 640px){
+
+    h3{
+        font-size: 9px !important;
+        letter-spacing: 4px;
+    }
+
+}
+
+
 
 /* ----------- iPhone 4 and 4S ----------- */
 
@@ -71,7 +116,7 @@ li a {
     }
 
     h3{
-        font-size: 14px;
+        font-size: 8px;
         letter-spacing: 4px;
 
     }
