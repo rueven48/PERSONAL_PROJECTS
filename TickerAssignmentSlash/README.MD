@@ -16,5 +16,12 @@ Angular5+, Bootstrap, Css, Html.<br />
 
 ![main](https://user-images.githubusercontent.com/40452887/54379385-f79d6380-4691-11e9-9e43-7c39aef3e9da.png)
 
+### To run this project in your local computer, you need:
+* Angular cli
+* Install npm: "npm install".
+* Run the command: "ng serve" inside client folder.
+* In url site type "localhost:4200/app/home" to launch app.
+* good luck !!!
+
 
 
