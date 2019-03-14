@@ -14,4 +14,7 @@ Angular5+, Bootstrap, Css, Html.<br />
 
 ## Screenshot : Main - display ticker.</br>
 
+![main](https://user-images.githubusercontent.com/40452887/54379385-f79d6380-4691-11e9-9e43-7c39aef3e9da.png)
+
+
 
