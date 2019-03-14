@@ -2,10 +2,10 @@
 
 ## Description :
 
-This application is a ticker of users messaging platform .<br />
-Every 3 seconds there is a new message that come from extentrnal file .<br />
-
-
+This application is a ticker of users messaging platform.<br />
+Every 3 seconds there is a new message that come from extentrnal file in json format .<br />
+Users can type in their new messages into the input and it will add and shown with the 10 messages that already there.<br />
+When the loop of messaging ends (or in 10 messages or if the users add some more) than it begin to display from the begining.<br />
 
 ## Using technologies :
 
@@ -13,5 +13,5 @@ Angular5+, Bootstrap, Css, Html.<br />
 
 
 ## Screenshot : Main - display ticker.</br>
-* I choose to display all the 'Batman' movies of page 1 of the API for example - 10 movies.
+
 
