@@ -1,0 +1,26 @@
+
+<div>
+   
+
+    <div class="container_live_feed">
+
+      <h4 id="main_headline">-Live Feed-</h4>
+      
+      <img class="avatar_man_speak" src="./../../assets/images/man_speak.png">
+      
+      <img class="blue_background" src="./../../assets/images/powerpoint_background.jpg">
+      
+      <textarea #text_input class="message_input" placeholder="write text here." [(ngModel)]="searchValue"></textarea>
+      
+      <button class="send_button btn btn-success" (click)="addNewMessageByUser(text_input.value)">Send</button>
+
+    </div>
+
+
+    <ul class="d-flex flex-column">
+
+      <app-message></app-message>                 
+  
+    </ul>
+
+</div>

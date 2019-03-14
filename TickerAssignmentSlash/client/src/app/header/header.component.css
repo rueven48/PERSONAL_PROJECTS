@@ -1,0 +1,125 @@
+
+.main_headline{
+    position: relative;
+    top: 5px;
+    left: 25%;
+    color: white;
+    text-align: center;
+}
+
+ul{
+    position: relative;
+    list-style-type: none;
+}
+
+img{
+    position: absolute;
+    top: -14px;
+    left: -62px;
+    width: 60px;
+    height: 60px;
+}
+
+.add_button{
+    position: relative;
+    top: 0px;
+    left: 75px ;
+    width: 135px;
+    height: 30px;
+    font-size: 15px;
+    color: orange;
+    text-decoration: none;
+}
+
+li a {
+    color: orange !important;
+}
+
+
+/* ----------- iPad ----------- */
+
+@media only screen
+  and (min-device-width: 415px)
+  and (max-device-width: 768px){
+
+    .main_headline{
+        font-size: 14px !important;
+    }
+}
+
+/* ----------- iPhone 6,7,8 plus----------- */
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 414px){
+
+  h3{
+      font-size: 12px !important;
+      letter-spacing: 4px;
+  }
+
+
+}
+
+
+/* ----------- iPhone 6,7,8 ----------- */
+
+ @media only screen
+  and (min-device-height: 569px)
+  and (max-device-height: 667px){
+
+    h3{
+        font-size: 8px !important;
+        letter-spacing: 4px;
+    }
+
+
+}
+
+
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+@media only screen
+  and (min-device-height: 481px)
+  and (max-device-height: 568px){
+
+    h3{
+        font-size: 12px;
+        letter-spacing: 4px;
+    }
+
+}
+
+/* ----------- GALAXY S5 ----------- */
+
+@media only screen
+  and (min-device-height: 360px)
+  and (max-device-height: 640px){
+
+    h3{
+        font-size: 9px !important;
+        letter-spacing: 4px;
+    }
+
+}
+
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-height: 480px){
+
+    .main_headline{
+        top: 15px;
+    }
+
+    h3{
+        font-size: 8px;
+        letter-spacing: 4px;
+
+    }
+}
+

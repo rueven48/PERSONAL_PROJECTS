@@ -1,0 +1,16 @@
+
+
+
+<li class="mr-5 mb-2" *ngFor="let message of shownMessages">
+        
+  <img class="message_picture rounded-circle" [src]="message.pic" alt="Message Picture">
+
+  <div class="message_fullName classic">{{message.fullName}}</div>
+  
+  <div class="message_date classic">{{message.date}}</div>
+
+  <div class="message_data classic"><strong>Say:</strong>"{{message.data}}"</div>
+
+  <hr/>
+
+</li>

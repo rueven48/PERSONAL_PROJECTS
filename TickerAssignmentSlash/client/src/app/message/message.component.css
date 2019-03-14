@@ -1,0 +1,59 @@
+
+li{
+    position: relative;
+    text-decoration: none;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+
+
+.message_picture{
+    position: relative;
+    top: 0;
+    height: 100px;
+    width: 100px;
+}
+
+
+.avatar_man_speak{
+    position: absolute;
+    left: 4%;
+    top: 65px;
+    height: 100px;
+    width: 120px;
+    
+}
+
+
+.message_fullName{
+    position: absolute;
+    top: 1vh;
+    left: 10%; 
+    font-size: 20px;   
+}
+
+.message_date{
+    position: absolute;
+    top: 4vh;
+    left: 10%;
+    color:gold !important;
+}
+
+.message_data{
+    position: absolute;
+    top: 5vh;
+    left: 35%;
+    font-size: 18px;
+}
+
+.classic{
+    color: black;
+}
+
+hr{
+    border-style: double;
+    border-width: 3px;
+}
+
