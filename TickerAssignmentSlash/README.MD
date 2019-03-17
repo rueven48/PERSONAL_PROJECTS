@@ -11,6 +11,9 @@ When the loop of messaging ends (or in 10 messages or if the users add some more
 
 Angular5+, Bootstrap, Css, Html.<br />
 
+## See live demo :
+https://tickerassignment.herokuapp.com
+
 
 ## Screenshot : Main - display ticker.</br>
 
