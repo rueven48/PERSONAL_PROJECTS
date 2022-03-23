@@ -1,4 +1,4 @@
-# JOHN BRYCE - COLLEGE PROJECTS
+# PERSONAL PROJECTS
 
 **1. Notes - project.**
 
