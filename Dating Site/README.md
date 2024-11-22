@@ -11,9 +11,9 @@ feeling of being on it and is adapted to work with a computer and on mobile devi
 
 ## Using technologies :
 
-1. REACT - CLIENT SIDE
-2. NODE JS - SERVER SIDE
-3. DB - POSTGRES - SQL
+1. **REACT** - CLIENT SIDE
+2. **NODE JS** - SERVER SIDE
+3. **DB** - POSTGRES - SQL
 
 ## See live demo :
 https://dating-from-legends.onrender.com/
