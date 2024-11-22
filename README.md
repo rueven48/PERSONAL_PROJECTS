@@ -4,7 +4,7 @@
 ## See live video :
 https://github.com/user-attachments/assets/f54208c3-b750-4999-ab48-be4aede7f218
 
-## See live demo :
+## See live site :
 https://dating-from-legends.onrender.com/
 
 ![login_picture_datind_site](https://github.com/user-attachments/assets/e35332d8-601d-4e69-b88c-70abe0995fac)
