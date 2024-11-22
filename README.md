@@ -36,9 +36,6 @@
 
 Angular5, Node Js, MongoDb, Bootstrap, Css, Html.
 
-* See live demo :
-https://shoppingruevenonline.herokuapp.com
-
 * Screenshot :
 
 ![shopping_home](https://user-images.githubusercontent.com/40452887/51164852-fd034b00-18a6-11e9-82a2-f348ac88241c.png)
