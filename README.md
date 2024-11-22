@@ -9,6 +9,16 @@ https://dating-from-legends.onrender.com/
 
 # PERSONAL PROJECTS
 
+**Shopping Online project.**
+
+* Technologies :
+
+Angular5, Node Js, MongoDb, Bootstrap, Css, Html.
+
+* Screenshot :
+
+![shopping_home](https://user-images.githubusercontent.com/40452887/51164852-fd034b00-18a6-11e9-82a2-f348ac88241c.png)
+
 **Notes - project.**
 
 * Technologies :
@@ -38,16 +48,6 @@ https://dating-from-legends.onrender.com/
 * Screenshot :
 
 ![school_main1](https://user-images.githubusercontent.com/40452887/46909734-d3512580-cf3f-11e8-955f-5badc903f2ab.png)
-
-**Shopping Online project.**
-
-* Technologies :
-
-Angular5, Node Js, MongoDb, Bootstrap, Css, Html.
-
-* Screenshot :
-
-![shopping_home](https://user-images.githubusercontent.com/40452887/51164852-fd034b00-18a6-11e9-82a2-f348ac88241c.png)
 
 **Herolo Cinema project.**
 
