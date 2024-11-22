@@ -3,6 +3,9 @@
 ## Description :
 
 A religious dating site where users can chat with each other instantly and interact to get married.
+The site was built for men and women and also has an administrator login environment.
+י
+אי
 
 ## Using technologies :
 
