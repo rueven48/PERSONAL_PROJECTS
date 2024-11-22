@@ -18,7 +18,7 @@ feeling of being on it and is adapted to work with a computer and on mobile devi
 2. **NODE JS** - SERVER SIDE
 3. **DB** - POSTGRES - SQL
 
-## See live demo :
+## See live site :
 https://dating-from-legends.onrender.com/
 
 ![login_picture_datind_site](https://github.com/user-attachments/assets/e35332d8-601d-4e69-b88c-70abe0995fac)
